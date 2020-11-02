@@ -36,7 +36,7 @@ function setup() {
 	packageBody.scale=0.2;
 
 	//Create a Ground
-	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
+	ground = Bodies.rectangle(width/2, 550, width, 10 , {isStatic:true} );
  	World.add(world, ground);
 
 
@@ -52,7 +52,6 @@ function draw() {
   packageSprite.y= packageBody.position.y 
 
   drawSprites();
- keyPressed();
 }
 
 function keyPressed() {
